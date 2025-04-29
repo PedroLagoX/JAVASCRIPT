@@ -5,15 +5,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; 
+    height: 100vh;
 }
 
 .container {
     background-color: white;
     padding: 40px 20px;
-    box-sizing: 0px 0px 10px rgba(0,0,0,1);
+    box-sizing: 0px 0px 10px rgba(0, 0, 0, 0.1);
     width: 350px;
-    max-width: 80vh;
+    max-height: 80vh;
     overflow-y: auto;
     text-align: center;
 }

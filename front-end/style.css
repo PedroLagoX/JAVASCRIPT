@@ -3,26 +3,26 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: white;
+    background-color: #f4f4f4;
 }
 
 body {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: center;
+    flex-direction: column;
 }
 
 .logo {
-    width: 200px;
-    margin-bottom: 20px;
+    width: 400px;
+    margin-bottom: 40px;
 }
 
 .container {
     background-color: white;
-    padding: 40x 20px;
+    padding: 40px 20px;
     border-radius: 12px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
     width: 320px;
     display: flex;
     flex-direction: column;
@@ -37,7 +37,7 @@ h2 {
     font-size: 20px;
     text-align: center;
     font-weight: bold;
-    color: aqua;
+    color: #284ea7;
 }
 
 form {
@@ -61,7 +61,7 @@ input {
 }
 
 button {
-    background-color: aquamarine;
+    background-color: #28a745;
     color: white;
     border: none;
     cursor: pointer;
@@ -94,12 +94,12 @@ button:hover {
     border-radius: 5px;
     color: white;
     font-weight: bold;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     transition: right 0.5s ease-in-out opacity 0.5s ease-in-out;
     opacity: 0;
     cursor: pointer;
     max-width: 300px;
-    z-index: 1000;  
+    z-index: 1000;
 }
 
 .mensagem.sucesso {
@@ -114,4 +114,3 @@ button:hover {
 .oculto {
     display: none;
 }
-
